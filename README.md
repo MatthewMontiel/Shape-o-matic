@@ -21,13 +21,13 @@ Follow the prompts given by the program and it will create a shape svg for you.
 ## Contact-me
 * Name - Matthew Montiel
 * Email - matthewmontiel87@gmail.com
-* GitHub - [matthewmontiel](https://github.com/matthewmontiel/)
+* GitHub - [MatthewMontiel](https://github.com/MatthewMontiel/)
 ## Credits
 n/a
 ## Features
 quick and easy way to create a personal svg logo using 3 characters and color keywords.
 ## Contributors
-dctristero
+dctristero - Daniel Cohen
 ## Test
 yes
 
