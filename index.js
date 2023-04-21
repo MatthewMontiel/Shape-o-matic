@@ -1,11 +1,11 @@
+const {Shape, Triangle, Square, Circle } = require('./lib/shapes.js');
 const fs = require("fs");
-const {Shape, Triangle, Square, Circle } = require('./lib/shapes/js');
 const inquirer = require("inquirer");
 const path = require("path");
 
 
 inquirer
-    .createPromptModule([{
+    .prompt([{
         type: "checkbox",
         name: "userShape",
         message: "What shape would you like to use for your svg?",
@@ -31,7 +31,7 @@ inquirer
     let userShape = answers.userShape;
     let userColor = answers.userColor;
     let userInitials = answers.initialsText;
-    let initialTextColor = answer.initialTextColor;
+    let initialTextColor = answers.initialTextColor;
     console.log(userShape, userColor, userInitials, initialTextColor);
     if (userShape == "Circle") {
         const circle = new Circle(userColor, userInitials, initialTextColor);

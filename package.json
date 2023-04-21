@@ -1,15 +1,21 @@
 {
   "name": "shape-o-matic",
   "version": "1.0.0",
-  "description": "",
+  "description": "![GitHub license](https://img.shields.io/badge/license-MIT-yellowgreen.svg) ## Table of Contents * [Description](#description) * [Installation](#installation) * [Usage](#usage) * [Contact-Me](#contact-me) * [Credits](#credits) * [Features](#features) * [Contributors](#contributors) * [test](#test)",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies" : {
+    "jest": "^28.1.3"
+  }
 }
